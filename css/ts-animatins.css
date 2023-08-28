@@ -1,0 +1,470 @@
+/* SLIDE - 1 */
+.ts-1 > .ts-bg-glow-big {
+  transform: translate(calc(-50vw - 30%), calc(-50vh - 30%));
+  -webkit-transform: translate(calc(-50vw - 30%), calc(-50vh - 30%));
+  -moz-transform: translate(calc(-50vw - 30%), calc(-50vh - 30%));
+  -ms-transform: translate(calc(-50vw - 30%), calc(-50vh - 30%));
+  -o-transform: translate(calc(-50vw - 30%), calc(-50vh - 30%));
+}
+.ts-1 > .ts-bg-glow-small {
+  transform: translate(-100%, calc(-50vh - 30%));
+  -webkit-transform: translate(-100%, calc(-50vh - 30%));
+  -moz-transform: translate(-100%, calc(-50vh - 30%));
+  -ms-transform: translate(-100%, calc(-50vh - 30%));
+  -o-transform: translate(-100%, calc(-50vh - 30%));
+}
+.ts-1 > .ts-bg-boxes {
+  transform: translate(calc(50vw - 90%), calc(50vh - 80%)) rotate(10deg)
+    scale(0.7);
+  -webkit-transform: translate(calc(50vw - 90%), calc(50vh - 80%)) rotate(10deg)
+    scale(0.7);
+  -moz-transform: translate(calc(50vw - 90%), calc(50vh - 80%)) rotate(10deg)
+    scale(0.7);
+  -ms-transform: translate(calc(50vw - 90%), calc(50vh - 80%)) rotate(10deg)
+    scale(0.7);
+  -o-transform: translate(calc(50vw - 90%), calc(50vh - 80%)) rotate(10deg)
+    scale(0.7);
+}
+.ts-1 > .ts-bg-pattern {
+  transform: translate(100vw, 100vh) rotate(5deg) scale(0.8);
+  -webkit-transform: translate(100vw, 100vh) rotate(5deg) scale(0.8);
+  -moz-transform: translate(100vw, 100vh) rotate(5deg) scale(0.8);
+  -ms-transform: translate(100vw, 100vh) rotate(5deg) scale(0.8);
+  -o-transform: translate(100vw, 100vh) rotate(5deg) scale(0.8);
+}
+
+/* SLIDE - 2 */
+.ts-2 > .ts-bg-glow-big {
+  transform: translate(0, calc(-50vh - 30%));
+  -webkit-transform: translate(0, calc(-50vh - 30%));
+  -moz-transform: translate(0, calc(-50vh - 30%));
+  -ms-transform: translate(0, calc(-50vh - 30%));
+  -o-transform: translate(0, calc(-50vh - 30%));
+}
+.ts-2 > .ts-bg-glow-small {
+  transform: translate(-150%, 0);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+}
+.ts-2 > .ts-bg-boxes {
+  transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -webkit-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -moz-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -ms-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -o-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+}
+.ts-2 > .ts-bg-pattern {
+  transform: translate(-20%, -20%) rotate(0) scale(1);
+  -webkit-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -moz-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -ms-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -o-transform: translate(-20%, -20%) rotate(0) scale(1);
+}
+
+/* SLIDE - 3 */
+.ts-3 > .ts-bg-glow-big {
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.ts-3 > .ts-bg-glow-small {
+  transform: translate(-50vw, -100%);
+  -webkit-transform: translate(-50vw, -100%);
+  -moz-transform: translate(-50vw, -100%);
+  -ms-transform: translate(-50vw, -100%);
+  -o-transform: translate(-50vw, -100%);
+}
+.ts-3 > .ts-bg-boxes {
+  transform: translate(-150%, 0) rotate(-15deg) scale(0.6);
+  -webkit-transform: translate(-150%, 0) rotate(-15deg) scale(0.6);
+  -moz-transform: translate(-150%, 0) rotate(-15deg) scale(0.6);
+  -ms-transform: translate(-150%, 0) rotate(-15deg) scale(0.6);
+  -o-transform: translate(-150%, 0) rotate(-15deg) scale(0.6);
+}
+.ts-3 > .ts-bg-pattern {
+  transform: translate(50vw, 50vh) rotate(0) scale(0.2);
+  -webkit-transform: translate(50vw, 50vh) rotate(0) scale(0.2);
+  -moz-transform: translate(50vw, 50vh) rotate(0) scale(0.2);
+  -ms-transform: translate(50vw, 50vh) rotate(0) scale(0.2);
+  -o-transform: translate(50vw, 50vh) rotate(0) scale(0.2);
+}
+
+/* SLIDE - 4 */
+.ts-4 > .ts-bg-glow-big {
+  transform: translate(calc(50vw - 90%), -20%);
+  -webkit-transform: translate(calc(50vw - 90%), -20%);
+  -moz-transform: translate(calc(50vw - 90%), -20%);
+  -ms-transform: translate(calc(50vw - 90%), -20%);
+  -o-transform: translate(calc(50vw - 90%), -20%);
+}
+.ts-4 > .ts-bg-glow-small {
+  transform: translate(calc(-50vw + 100%), calc(-50vh - 50%));
+  -webkit-transform: translate(calc(-50vw + 100%), calc(-50vh - 50%));
+  -moz-transform: translate(calc(-50vw + 100%), calc(-50vh - 50%));
+  -ms-transform: translate(calc(-50vw + 100%), calc(-50vh - 50%));
+  -o-transform: translate(calc(-50vw + 100%), calc(-50vh - 50%));
+}
+.ts-4 > .ts-bg-boxes {
+  transform: translate(-100vw, -100vh) rotate(0) scale(1);
+  -webkit-transform: translate(-100vw, -100vh) rotate(0) scale(1);
+  -moz-transform: translate(-100vw, -100vh) rotate(0) scale(1);
+  -ms-transform: translate(-100vw, -100vh) rotate(0) scale(1);
+  -o-transform: translate(-100vw, -100vh) rotate(0) scale(1);
+}
+.ts-4 > .ts-bg-pattern {
+  transform: translate(-120%, 20%) rotate(0) scale(1);
+  -webkit-transform: translate(-120%, 20%) rotate(0) scale(1);
+  -moz-transform: translate(-120%, 20%) rotate(0) scale(1);
+  -ms-transform: translate(-120%, 20%) rotate(0) scale(1);
+  -o-transform: translate(-120%, 20%) rotate(0) scale(1);
+}
+
+/* SLIDE - 5 */
+.ts-5 > .ts-bg-glow-big {
+  transform: translate(-100%, -50%);
+  -webkit-transform: translate(-100%, -50%);
+  -moz-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  -o-transform: translate(-100%, -50%);
+}
+.ts-5 > .ts-bg-glow-small {
+  transform: translate(-150%, 0);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+}
+.ts-5 > .ts-bg-boxes {
+  transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -webkit-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -moz-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -ms-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+  -o-transform: translate(calc(50vw - 90%), -50vh) rotate(0) scale(1);
+}
+.ts-5 > .ts-bg-pattern {
+  transform: translate(-20%, -20%) rotate(0) scale(1);
+  -webkit-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -moz-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -ms-transform: translate(-20%, -20%) rotate(0) scale(1);
+  -o-transform: translate(-20%, -20%) rotate(0) scale(1);
+}
+
+/* SLIDE - 6 */
+.ts-6 > .ts-bg-glow-big {
+  transform: translate(0, calc(-50vh - 30%));
+  -webkit-transform: translate(0, calc(-50vh - 30%));
+  -moz-transform: translate(0, calc(-50vh - 30%));
+  -ms-transform: translate(0, calc(-50vh - 30%));
+  -o-transform: translate(0, calc(-50vh - 30%));
+}
+.ts-6 > .ts-bg-glow-small {
+  transform: translate(-150%, 0);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+}
+.ts-6 > .ts-bg-boxes {
+  transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -webkit-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -moz-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -ms-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -o-transform: translate(50vw, -100vh) rotate(0) scale(1);
+}
+.ts-6 > .ts-bg-pattern {
+  transform: translate(-50vw, 20vh) rotate(0) scale(0.8);
+  -webkit-transform: translate(-50vw, 20vh) rotate(0) scale(0.8);
+  -moz-transform: translate(-50vw, 20vh) rotate(0) scale(0.8);
+  -ms-transform: translate(-50vw, 20vh) rotate(0) scale(0.8);
+  -o-transform: translate(-50vw, 20vh) rotate(0) scale(0.8);
+}
+
+/* SLIDE - 7 */
+.ts-7 > .ts-bg-glow-big {
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.ts-7 > .ts-bg-glow-small {
+  transform: translate(30%, -50vh);
+  -webkit-transform: translate(30%, -50vh);
+  -moz-transform: translate(30%, -50vh);
+  -ms-transform: translate(30%, -50vh);
+  -o-transform: translate(30%, -50vh);
+}
+.ts-7 > .ts-bg-boxes {
+  transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -webkit-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -moz-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -ms-transform: translate(50vw, -100vh) rotate(0) scale(1);
+  -o-transform: translate(50vw, -100vh) rotate(0) scale(1);
+}
+.ts-7 > .ts-bg-pattern {
+  transform: translate(50vw, 50vh) rotate(0) scale(1);
+  -webkit-transform: translate(50vw, 50vh) rotate(0) scale(1);
+  -moz-transform: translate(50vw, 50vh) rotate(0) scale(1);
+  -ms-transform: translate(50vw, 50vh) rotate(0) scale(1);
+  -o-transform: translate(50vw, 50vh) rotate(0) scale(1);
+}
+
+/* SLIDE - 8 */
+.ts-8 > .ts-bg-glow-big {
+  transform: translate(0, calc(-50vh - 30%));
+  -webkit-transform: translate(0, calc(-50vh - 30%));
+  -moz-transform: translate(0, calc(-50vh - 30%));
+  -ms-transform: translate(0, calc(-50vh - 30%));
+  -o-transform: translate(0, calc(-50vh - 30%));
+}
+.ts-8 > .ts-bg-glow-small {
+  transform: translate(-150%, 0);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+}
+.ts-8 > .ts-bg-boxes {
+  transform: translate(calc(50vw - 90%), -50%) rotate(10deg) scale(0.8);
+  -webkit-transform: translate(calc(50vw - 90%), -50%) rotate(10deg) scale(0.8);
+  -moz-transform: translate(calc(50vw - 90%), -50%) rotate(10deg) scale(0.8);
+  -ms-transform: translate(calc(50vw - 90%), -50%) rotate(10deg) scale(0.8);
+  -o-transform: translate(calc(50vw - 90%), -50%) rotate(10deg) scale(0.8);
+}
+.ts-8 > .ts-bg-pattern {
+  transform: translate(-50vw, 0) rotate(0) scale(0.7);
+  -webkit-transform: translate(-50vw, 0) rotate(0) scale(0.7);
+  -moz-transform: translate(-50vw, 0) rotate(0) scale(0.7);
+  -ms-transform: translate(-50vw, 0) rotate(0) scale(0.7);
+  -o-transform: translate(-50vw, 0) rotate(0) scale(0.7);
+}
+
+/* TEXT ANIMATIONS */
+.ts-step-1.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-1.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-1.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-1.ts-active > .ts-content > .ts-str-4 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+
+.ts-step-2.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-2.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(10%, -50%);
+  -webkit-transform: translate(10%, -50%);
+  -moz-transform: translate(10%, -50%);
+  -ms-transform: translate(10%, -50%);
+  -o-transform: translate(10%, -50%);
+}
+.ts-step-2.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(0, -200%);
+  -webkit-transform: translate(0, -200%);
+  -moz-transform: translate(0, -200%);
+  -ms-transform: translate(0, -200%);
+  -o-transform: translate(0, -200%);
+}
+.ts-step-2.ts-active > .ts-content > .ts-str-4 {
+  transform: translate(150%, 0);
+  -webkit-transform: translate(150%, 0);
+  -moz-transform: translate(150%, 0);
+  -ms-transform: translate(150%, 0);
+  -o-transform: translate(150%, 0);
+}
+
+.ts-step-3.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(-10%, 400%);
+  -webkit-transform: translate(-10%, 400%);
+  -moz-transform: translate(-10%, 400%);
+  -ms-transform: translate(-10%, 400%);
+  -o-transform: translate(-10%, 400%);
+}
+.ts-step-3.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(0, 50%);
+  -webkit-transform: translate(0, 50%);
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+}
+.ts-step-3.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-3.ts-active > .ts-content > .ts-str-4 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+
+.ts-step-4.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+.ts-step-4.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(0, 0) scale(1);
+  -webkit-transform: translate(0, 0) scale(1);
+  -moz-transform: translate(0, 0) scale(1);
+  -ms-transform: translate(0, 0) scale(1);
+  -o-transform: translate(0, 0) scale(1);
+}
+.ts-step-4.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(50%, 0);
+  -webkit-transform: translate(50%, 0);
+  -moz-transform: translate(50%, 0);
+  -ms-transform: translate(50%, 0);
+  -o-transform: translate(50%, 0);
+}
+.ts-step-4.ts-active > .ts-content > .ts-str-4 {
+  transform: translate(50%, 0);
+  -webkit-transform: translate(50%, 0);
+  -moz-transform: translate(50%, 0);
+  -ms-transform: translate(50%, 0);
+  -o-transform: translate(50%, 0);
+}
+.ts-step-4.ts-active > .ts-content > .ts-str-5 {
+  transform: translate(70%, 0);
+  -webkit-transform: translate(70%, 0);
+  -moz-transform: translate(70%, 0);
+  -ms-transform: translate(70%, 0);
+  -o-transform: translate(70%, 0);
+}
+
+.ts-step-5.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(0, 0) scale(1);
+  -webkit-transform: translate(0, 0) scale(1);
+  -moz-transform: translate(0, 0) scale(1);
+  -ms-transform: translate(0, 0) scale(1);
+  -o-transform: translate(0, 0) scale(1);
+}
+.ts-step-5.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+}
+.ts-step-5.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(0, -100%);
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  -o-transform: translate(0, -100%);
+}
+
+.ts-step-6.ts-active > .ts-content > .ts-str-1 {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.ts-step-6.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(30%, 0);
+  -webkit-transform: translate(30%, 0);
+  -moz-transform: translate(30%, 0);
+  -ms-transform: translate(30%, 0);
+  -o-transform: translate(30%, 0);
+}
+.ts-step-6.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+}
+
+.ts-step-7.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(-20%, 20%);
+  -webkit-transform: translate(-20%, 20%);
+  -moz-transform: translate(-20%, 20%);
+  -ms-transform: translate(-20%, 20%);
+  -o-transform: translate(-20%, 20%);
+}
+.ts-step-7.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(20%, 0);
+  -webkit-transform: translate(20%, 0);
+  -moz-transform: translate(20%, 0);
+  -ms-transform: translate(20%, 0);
+  -o-transform: translate(20%, 0);
+}
+.ts-step-7.ts-active > .ts-content > .ts-str-3 {
+  transform: translate(20%, 0);
+  -webkit-transform: translate(20%, 0);
+  -moz-transform: translate(20%, 0);
+  -ms-transform: translate(20%, 0);
+  -o-transform: translate(20%, 0);
+}
+.ts-step-7.ts-active > .ts-content > .ts-str-4 {
+  transform: translate(20%, -30%);
+  -webkit-transform: translate(20%, -30%);
+  -moz-transform: translate(20%, -30%);
+  -ms-transform: translate(20%, -30%);
+  -o-transform: translate(20%, -30%);
+}
+.ts-step-7.ts-active > .ts-content > .ts-str-5 {
+  transform: translate(20%, -200%);
+  -webkit-transform: translate(20%, -200%);
+  -moz-transform: translate(20%, -200%);
+  -ms-transform: translate(20%, -200%);
+  -o-transform: translate(20%, -200%);
+}
+.ts-step-7.ts-active > .ts-content > .ts-str-6 {
+  transform: translate(20%, -50%);
+  -webkit-transform: translate(20%, -50%);
+  -moz-transform: translate(20%, -50%);
+  -ms-transform: translate(20%, -50%);
+  -o-transform: translate(20%, -50%);
+}
+
+.ts-step-8.ts-active > .ts-content > .ts-str-1 {
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+}
+.ts-step-8.ts-active > .ts-content > .ts-str-2 {
+  transform: translate(40%, -130%);
+  -webkit-transform: translate(40%, -130%);
+  -moz-transform: translate(40%, -130%);
+  -ms-transform: translate(40%, -130%);
+  -o-transform: translate(40%, -130%);
+}

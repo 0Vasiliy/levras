@@ -1,0 +1,52 @@
+@import url(./style.css);
+
+body .navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+body .navbar .wraper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  border-radius: 25px;
+  border: 1px solid var(--white-);
+  background: rgba(247, 247, 247, 0.3);
+  backdrop-filter: blur(47px);
+
+  padding: 5px;
+  max-width: 115px;
+}
+
+body .navbar .wraper button {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+
+  background: var(--white-);
+  box-shadow: 0px 4px 50px 0px #3b74a8,
+    0px 0px 180px 0px rgba(34, 104, 119, 0.4) inset;
+
+  padding: 5px;
+
+  transition: var(--0-25s-);
+}
+
+body .navbar .wraper button:hover {
+  background: var(--black-);
+  box-shadow: 0px 4px 50px 0px #37909c,
+    0px 0px 80px 0px rgba(34, 104, 119, 0.4) inset;
+  color: var(--white-);
+}
+
+body .navbar .wraper button:hover .feather:hover {
+  color: var(--white-);
+}

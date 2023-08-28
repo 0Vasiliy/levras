@@ -1,0 +1,14 @@
+@media screen and (orientation: portrait) {
+  .slider-nav {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    gap: 20px;
+    align-items: stretch;
+    width: auto;
+    flex-direction: column;
+  }
+  .slider-buttons {
+    align-self: center;
+  }
+}

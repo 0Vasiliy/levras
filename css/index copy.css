@@ -1,0 +1,98 @@
+@import url(./style.css);
+
+body section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+}
+body section .flicking-camera {
+}
+/* .active-card {
+  margin-bottom: 120px;
+}
+.active-card a {
+  box-shadow: 0px 4px 50px 0px #3b74a8,
+    0px 0px 180px 0px rgba(34, 104, 119, 0.4) inset;
+}
+
+.next-card {
+  transition: 0.25s;
+  filter: blur(15px);
+  transform: scale(70%);
+  pointer-events: none;
+  top: 120px;
+} */
+body section .flicking-camera .panel .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body section .panel .card .bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+body section .panel .card .bot h1 {
+  font-size: calc(20px + 1vw);
+}
+body section .panel .card .bot p {
+  max-width: 300px;
+  text-align: center;
+}
+body section .panel .card .bot a {
+  padding: 15px 32px;
+  background:var(--cyan-);
+  border-radius: 3rem;
+
+  box-shadow: 0px 4px 50px 0px #3B74A8, 0px 0px 180px 0px rgba(34, 104, 119, 0.40) inset;
+}
+body .bg {
+  z-index: -1000;
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+body .bg .elem-1 {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+body .bg .elem-1 img {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  object-fit: cover;
+}
+body .bg .elem-2 {
+  position: absolute;
+  left: 0;
+}
+body .bg .elem-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 990px) {
+  body {
+  }
+  body .navbar {
+    transform: scale(1.2);
+    margin-bottom: 40px;
+  }
+  body section .wraper .right-wraper .card {
+    display: none;
+  }
+  body section .wraper .left-wraper .card {
+    display: none;
+  }
+}

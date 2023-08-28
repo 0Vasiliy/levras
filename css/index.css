@@ -1,0 +1,153 @@
+@import url(./style.css);
+
+body section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+}
+
+body section .wraper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0px 20px;
+}
+body section .wraper .card-wraper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  transition: ease-in-out;
+  /* gap: 3.7%; */
+  transition: 0.25s;
+}
+
+.active-card {
+  margin-bottom: 120px;
+  filter: blur(0px) !important;
+  -webkit-filter: blur(0px) !important;
+}
+.active-card a {
+  box-shadow: 0px 4px 50px 0px #3b74a8,
+    0px 0px 180px 0px rgba(34, 104, 119, 0.4) inset;
+}
+
+.next-card {
+  transition: 0.25s;
+  filter: blur(15px);
+  transform: scale(70%);
+  pointer-events: none;
+  top: 120px;
+}
+body section .wraper .card {
+  position: relative;
+  width: calc((100vw - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+body section .wraper .card .elem-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+body section .wraper .card .elem-bot h1 {
+  font-size: calc(20px + 1vw);
+}
+body section .wraper .card .elem-bot p {
+  max-width: 300px;
+  opacity: 0.6;
+}
+body section .wraper .card .elem-bot a {
+  background: var(--cyan-);
+  padding: 15px 32px;
+  border-radius: 3rem;
+  border: 1px solid var(--cyan-);
+
+  transition: var(--0-25s-) ease-in;
+}
+body section .wraper .card .elem-bot a:hover {
+  background: none;
+  border: 1px solid var(--cyan-);
+}
+body .bg {
+  background: var(--black-);
+  z-index: -1000;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+body .bg .elem-1 {
+  position: absolute;
+  background: url('../img/bg-pattern.svg') center;
+  mix-blend-mode: color-dodge;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+body .bg .glare {
+  position: absolute;
+  display: block;
+  background: url('../img/glare-big.svg') no-repeat center;
+  background-size: contain;
+  width: 976px;
+  height: 853px;
+  left: 50%;
+  top: 50%;
+}
+
+body .bg .elem-2 {
+  mix-blend-mode: screen;
+  transform: translate(-10%, -90%);
+  -webkit-transform: translate(-10%, -90%);
+  -moz-transform: translate(-10%, -90%);
+  -ms-transform: translate(-10%, -90%);
+  -o-transform: translate(-10%, -90%);
+}
+body .bg .elem-3 {
+  transform: translate(-80%, -25%);
+  -webkit-transform: translate(-80%, -25%);
+  -moz-transform: translate(-80%, -25%);
+  -ms-transform: translate(-80%, -25%);
+  -o-transform: translate(-80%, -25%);
+}
+body .bg .elem-4 {
+  mix-blend-mode: color;
+  transform: translate(-20%, -10%);
+  -webkit-transform: translate(-20%, -10%);
+  -moz-transform: translate(-20%, -10%);
+  -ms-transform: translate(-20%, -10%);
+  -o-transform: translate(-20%, -10%);
+}
+@media (max-width: 990px) {
+  body {
+  }
+  body .navbar {
+    transform: scale(1.2);
+    margin-bottom: 40px;
+  }
+  body section .wraper .right-wraper .card {
+    display: none;
+  }
+  body section .wraper .left-wraper .card {
+    display: none;
+  }
+}
